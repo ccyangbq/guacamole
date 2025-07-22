@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-ban/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-duo/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-header/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-jdbc/modules/guacamole-auth-jdbc-postgresql/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-jdbc/modules/guacamole-auth-jdbc-sqlserver/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-json/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-ldap/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-quickconnect/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-restrict/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-auth-totp/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-display-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-history-recording-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/extensions/guacamole-vault/pom.xml" />
+      </set>
+    </option>
+  </component>
+</project>

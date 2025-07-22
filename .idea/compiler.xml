@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guacamole-vault-base" />
+        <module name="guacamole" />
+        <module name="guacamole-auth-sso-saml" />
+        <module name="guacamole-ext" />
+        <module name="guacamole-auth-sso-cas" />
+        <module name="guacamole-common" />
+        <module name="guacamole-auth-jdbc-mysql" />
+        <module name="guacamole-auth-sso-ssl" />
+        <module name="guacamole-vault-ksm" />
+        <module name="guacamole-example" />
+        <module name="guacamole-auth-sso-base" />
+        <module name="guacamole-playback-example" />
+        <module name="guacamole-auth-sso-openid" />
+        <module name="guacamole-auth-jdbc-base" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guacamole-auth-ban" target="1.8" />
+      <module name="guacamole-auth-duo" target="1.8" />
+      <module name="guacamole-auth-header" target="1.8" />
+      <module name="guacamole-auth-jdbc-postgresql" target="1.8" />
+      <module name="guacamole-auth-jdbc-sqlserver" target="1.8" />
+      <module name="guacamole-auth-json" target="1.8" />
+      <module name="guacamole-auth-ldap" target="1.8" />
+      <module name="guacamole-auth-quickconnect" target="1.8" />
+      <module name="guacamole-auth-restrict" target="1.8" />
+      <module name="guacamole-auth-sso" target="1.5" />
+      <module name="guacamole-auth-totp" target="1.8" />
+      <module name="guacamole-display-statistics" target="1.8" />
+      <module name="guacamole-history-recording-storage" target="1.8" />
+      <module name="guacamole-vault" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guacamole" options="-Xlint:all" />
+      <module name="guacamole-auth-ban" options="-Xlint:all" />
+      <module name="guacamole-auth-duo" options="-Xlint:all" />
+      <module name="guacamole-auth-header" options="-Xlint:all" />
+      <module name="guacamole-auth-jdbc-base" options="-Xlint:all" />
+      <module name="guacamole-auth-jdbc-mysql" options="-Xlint:all" />
+      <module name="guacamole-auth-jdbc-postgresql" options="-Xlint:all" />
+      <module name="guacamole-auth-jdbc-sqlserver" options="-Xlint:all" />
+      <module name="guacamole-auth-json" options="-Xlint:all" />
+      <module name="guacamole-auth-ldap" options="-Xlint:all" />
+      <module name="guacamole-auth-quickconnect" options="-Xlint:all" />
+      <module name="guacamole-auth-restrict" options="-Xlint:all" />
+      <module name="guacamole-auth-sso-base" options="-Xlint:all" />
+      <module name="guacamole-auth-sso-cas" options="-Xlint:all" />
+      <module name="guacamole-auth-sso-openid" options="-Xlint:all" />
+      <module name="guacamole-auth-sso-saml" options="-Xlint:all" />
+      <module name="guacamole-auth-sso-ssl" options="-Xlint:all" />
+      <module name="guacamole-auth-totp" options="-Xlint:all" />
+      <module name="guacamole-common" options="-Xlint:all" />
+      <module name="guacamole-display-statistics" options="-Xlint:all" />
+      <module name="guacamole-example" options="-Xlint:all -Werror" />
+      <module name="guacamole-ext" options="-Xlint:all" />
+      <module name="guacamole-history-recording-storage" options="-Xlint:all" />
+      <module name="guacamole-vault-base" options="-Xlint:all" />
+      <module name="guacamole-vault-ksm" options="-Xlint:all" />
+    </option>
+  </component>
+</project>
