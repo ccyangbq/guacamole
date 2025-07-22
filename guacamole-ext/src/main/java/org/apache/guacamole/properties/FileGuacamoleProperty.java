@@ -46,7 +46,7 @@ public abstract class FileGuacamoleProperty implements GuacamoleProperty<File> {
         if (value == null)
             return null;
 
-        return new File(value);
+//        return new File(value);
 
     }
     
